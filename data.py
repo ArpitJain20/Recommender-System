@@ -13,7 +13,7 @@ import csv
 import os
 from random import randint
 
-db = MySQLdb.connect("futuredev-db.cl66uth20b6a.us-west-2.rds.amazonaws.com", "monetrewards", "monet123","iit-k2017" )
+db = MySQLdb.connect( 'credentials')
 
 cursor=db.cursor()
 
